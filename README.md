@@ -1,4 +1,8 @@
 "# CryptoPatch" 
+
+index js file
+
+
 var app = angular.module('cryptoPrice', [ "ngStorage" ]);
 app
         .controller(
