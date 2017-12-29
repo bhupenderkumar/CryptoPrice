@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>TestDBConnection</servlet-name>
+  	<display-name>TestDBConnection</display-name>
+  	<description></description>
+  	<servlet-class>com.crypto.db.TestDBConnection</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>TestDBConnection</servlet-name>
+  	<url-pattern>/TestDBConnection</url-pattern>
+  </servlet-mapping>
 </web-app>
